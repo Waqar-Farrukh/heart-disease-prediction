@@ -1,0 +1,48 @@
+{
+  "accuracy": 0.7868852459016393,
+  "training_rows": 242,
+  "testing_rows": 61,
+  "features": [
+    "age",
+    "cp",
+    "thalach",
+    "exang"
+  ],
+  "confusion_matrix": [
+    [
+      31,
+      2
+    ],
+    [
+      11,
+      17
+    ]
+  ],
+  "classification_report": {
+    "Disease absent": {
+      "precision": 0.7380952380952381,
+      "recall": 0.9393939393939394,
+      "f1-score": 0.8266666666666667,
+      "support": 33.0
+    },
+    "Disease present": {
+      "precision": 0.8947368421052632,
+      "recall": 0.6071428571428571,
+      "f1-score": 0.723404255319149,
+      "support": 28.0
+    },
+    "accuracy": 0.7868852459016393,
+    "macro avg": {
+      "precision": 0.8164160401002507,
+      "recall": 0.7732683982683983,
+      "f1-score": 0.7750354609929078,
+      "support": 61.0
+    },
+    "weighted avg": {
+      "precision": 0.8099963022309874,
+      "recall": 0.7868852459016393,
+      "f1-score": 0.7792675270317404,
+      "support": 61.0
+    }
+  }
+}
